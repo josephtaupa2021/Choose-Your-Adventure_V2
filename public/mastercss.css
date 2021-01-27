@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body, html {
+    height: 100%;
+}
+
+body {
+
+    background-image: url("story.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size:1.3rem;
+    text-align: justify;
+    line-height:3rem;
+}
+
+.paradiv {
+        width: 50%;
+        margin-left: 25%;
+        text-align: justify;
+        background-color: rgba(83, 83, 83, 0.158);
+        padding: 50px;
+        box-shadow: 5px 5px 7px #8888888a;
+}
+.paradiv-mr {
+        width: 30%;
+        position: relative;
+        left: 900px;
+        top: -270px;
+        text-align: justify;
+        background-color: rgba(83, 83, 83, 0.158);
+        padding: 20px;
+        box-shadow: 5px 5px 7px #8888888a;
+}
+
+.paradiv-ml {
+    width: 50%;
+    margin-left: 10%;
+    text-align: justify;
+}
+
+.divbtn {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    width: 100%;
+    margin: 5px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+h1 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+#brandname {
+    font-size: 60px;
+}
+
+#contact {
+    font-family: 'Roboto', sans-serif;
+    font-size:1.3rem;
+    text-align:justify;
+    line-height:2rem;
+}
+
+.form {
+    max-width: fit-content;
+    position: relative;
+    left: 400px;
+
+}

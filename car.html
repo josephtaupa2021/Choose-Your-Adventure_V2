@@ -7,23 +7,48 @@
     <title>Car</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="home-bg.css">
+    <link rel="stylesheet" href="mastercss.css">
 
 </head>
 
 <body>
-    <center>
-        <h1 class="display-1">Car Dealer page</h1>
-        <hr>
-        <p class="lead">He went to the Car Dealer shop and bought himself his dream car.
-        </p>
-        <div>
-            <a href="/macbookpro"><button class="btn btn-outline-info">Previous</button></a>
-            <a href="/house"><button class="btn btn-outline-info">Next</button></a>
-            <a href="/home"><button class="btn btn-outline-info">Home</button></a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="#">
+                <h1 id="brandname">ADV</h1>.venture
+            </a>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/home">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/about">About Us</a>
+                </li>
+                <li class="nav-item active>
+                    <a class=" nav-link" href="/contact">Contact</a>
+                </li>
+            </ul>
         </div>
-        <img src="car.jpg" class="rounded mx-auto d-block" alt="car">
-    </center>
+    </nav>
+
+    <h1 class="display-1">Car Dealer</h1>
+    <hr>
+    <div class="paradiv">
+        <p>He went to the Car Dealer shop and bought himself his dream car.<em>"I will never
+                walk the
+                streets
+                ever again with bare feet",</em> he said with tears running down his eyes.<br><br>If you're interested
+            to purchase used vehicles online, please check out <a
+                href="https://www.japanesevehicles.com/index.php?lang=en&gclid=Cj0KCQiAmL-ABhDFARIsAKywVae0campC3rHH5y6atGsQfjenFHK8jyV9e6hKA_A0Pvd9E-ka0UdoUIaAuDKEALw_wcB">Japanes
+                Used Cars</a>.
+        </p>
+    </div>
+
+    <div class="divbtn" style="width: 100%;">
+        <a href="/home"><button class="btn btn-outline-success my-2 my-sm-0">Back</button></a>
+    </div>
+    <img src="car.jpg" class="rounded mx-auto d-block" alt="car">
+
 </body>
 
 </html>

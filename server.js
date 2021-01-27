@@ -29,4 +29,12 @@ app.get('/charity', function (request, response) {
     response.sendFile(path.join(__dirname, 'charity.html'))
 })
 
+app.get('/about', function (request, response) {
+    response.sendFile(path.join(__dirname, 'about.html'))
+})
+
+app.get('/contact', function (request, response) {
+    response.sendFile(path.join(__dirname, 'contact.html'))
+})
+
 app.listen(8080, () => console.log('Listening at port 8080')); 

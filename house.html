@@ -7,24 +7,45 @@
     <title>House</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="home-bg.css">
+    <link rel="stylesheet" href="mastercss.css">
 
 </head>
 
 <body>
-    <center>
-        <h1 class="display-1">Real Estate page</h1>
-        <hr>
-        <p class="lead">He went to the Real Estate company and bought himself his dream house.
-        </p>
-        <div>
-            <a href="/car"><button class="btn btn-outline-info">Previous</button></a>
-            <a href="/charity"><button class="btn btn-outline-info">Next</button></a>
-            <a href="/home"><button class="btn btn-outline-info">Home</button></a>
-            <img src="house.jpg" class="rounded mx-auto d-block" alt="house">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="#">
+                <h1 id="brandname">ADV</h1>.venture
+            </a>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/home">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/about">About</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/contact">Contact</a>
+                </li>
+            </ul>
         </div>
+    </nav>
 
-    </center>
+    <h1 class="display-1">Real Estate</h1>
+    <hr>
+    <div class="paradiv">
+        <p>He went to the Real Estate company and bought himself his dream house.<em> I'll never be
+                homeless
+                ever again",</em> Bob said with a big smile on his face.<br><br>Find your dream house online now. Go to
+            <a href="https://www.onlinerealestateagents.com.au/">Online Real Estate
+                Agent</a>.
+        </p>
+    </div>
+
+    <div div class="divbtn" style="width: 100%;">
+        <a href="/home"><button class="btn btn-outline-success my-2 my-sm-0">Back</button></a>
+    </div>
+    <img src="house.jpg" class="rounded mx-auto d-block" alt="house">
 </body>
 
 </html>
