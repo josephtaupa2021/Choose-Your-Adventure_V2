@@ -14,7 +14,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     }
-    
+
 p {
     font-family: 'Roboto', sans-serif;
     font-size:1.3rem;
@@ -102,13 +102,14 @@ h1 {
 
 .navbarstrip {
     position: relative;
-    top: -130px;
+    top: -170px;
     left: 230px;
 }
 
 .brandlogo {
     position: relative;
     left: 20px;
+    top: -10px;
 }
 #brandname {
     font-size: 100px;
