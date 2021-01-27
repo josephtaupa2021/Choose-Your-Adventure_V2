@@ -14,6 +14,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     }
+    
 p {
     font-family: 'Roboto', sans-serif;
     font-size:1.3rem;
@@ -29,7 +30,7 @@ p {
         padding: 50px;
         box-shadow: 5px 5px 7px #8888888a;
 }
-.paradiv-mr {
+.contactbox {
         width: 30%;
         position: relative;
         left: 900px;
@@ -63,15 +64,23 @@ h1 {
     font-family: 'Permanent Marker', cursive;
 }
 
-#brandname {
-    font-size: 60px;
-}
-
 #contact {
+    position:relative;
+    top: -60px;
+    left: 50px;
     font-family: 'Roboto', sans-serif;
     font-size:1.3rem;
     text-align:justify;
     line-height:2rem;
+}
+
+.id {
+    position: relative;
+    top: -80px;
+    left: 35%;
+    border: 3px solid #555;
+    border-radius: 100%;
+    max-width: 30%;
 }
 
 .form {
@@ -79,4 +88,28 @@ h1 {
     position: relative;
     left: 400px;
 
+}
+
+.sticky {
+    position:fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.sticky + .content {
+    padding-top: 140px;
+}
+
+.navbarstrip {
+    position: relative;
+    top: -130px;
+    left: 230px;
+}
+
+.brandlogo {
+    position: relative;
+    left: 20px;
+}
+#brandname {
+    font-size: 100px;
 }
