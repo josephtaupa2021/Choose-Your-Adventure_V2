@@ -10,31 +10,31 @@ app.use(express.static('public'));
 //The '.html' is the file that'll be served
 
 app.get('/home', function (request, response) {
-    response.sendFile(path.join(__dirname, 'home.html'))
+    response.sendFile(path.join(__dirname, 'home_2.html'))
 })
 
 app.get('/macbookpro', function (request, response) {
-    response.sendFile(path.join(__dirname, 'macbookpro.html'))
+    response.sendFile(path.join(__dirname, 'macbookpro_2.html'))
 })
 
 app.get('/car', function (request, response) {
-    response.sendFile(path.join(__dirname, 'car.html'))
+    response.sendFile(path.join(__dirname, 'car_2.html'))
 })
 
 app.get('/house', function (request, response) {
-    response.sendFile(path.join(__dirname, 'house.html'))
+    response.sendFile(path.join(__dirname, 'house_2.html'))
 })
 
 app.get('/charity', function (request, response) {
-    response.sendFile(path.join(__dirname, 'charity.html'))
+    response.sendFile(path.join(__dirname, 'charity_2.html'))
 })
 
 app.get('/about', function (request, response) {
-    response.sendFile(path.join(__dirname, 'about.html'))
+    response.sendFile(path.join(__dirname, 'about_2.html'))
 })
 
 app.get('/contact', function (request, response) {
-    response.sendFile(path.join(__dirname, 'contact.html'))
+    response.sendFile(path.join(__dirname, 'contact_2.html'))
 })
 
 app.listen(8080, () => console.log('Listening at port 8080')); 
